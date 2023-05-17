@@ -31,7 +31,7 @@ async function makeRequest() {
   }
 }
 
-setInterval(makeRequest, 0 * 60 * 1000); // 14 minutos en milisegundos
+setInterval(makeRequest, 14 * 60 * 1000); // 14 minutos en milisegundos
 
 
 serve((_req)=> {
