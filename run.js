@@ -45,7 +45,7 @@ if (resultElement) {
     }
   }
 
-  setInterval(makeRequest, 0 * 60 * 1000); // 14 minutos en milisegundos
+  setInterval(makeRequest, 14 * 60 * 1000); // 14 minutos en milisegundos
 } else {
   console.error('Element with ID "result" not found in document');
 }
